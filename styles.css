@@ -44,3 +44,10 @@ button {
     border-radius: 5%;
     font-size: medium;
 }
+
+@media (max-width: 1250px) {
+    .price-container {
+        flex-direction: column;
+        height: 100%;
+    }
+}
